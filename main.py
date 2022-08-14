@@ -7,8 +7,10 @@ def main():
      DATA_SOURCE_ = "candidates.json"
      candidates_list = load_candidates_from_json(DATA_SOURCE_)
 
+     # создание экземпляра класса Flask
      app = Flask(__name__)
 
+     # создание декораторов и функций, передача данных в шаблоны
      @app.route("/")
      def page_index():
          return render_template('list.html', candidates_list=candidates_list)
@@ -39,6 +41,7 @@ def main():
          else:
              return "Candidate not found"
 
+     # запуск сервера
      app.run()
 
 
