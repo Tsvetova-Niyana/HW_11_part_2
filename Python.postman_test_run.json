@@ -1,0 +1,142 @@
+{
+	"id": "7d1a27a8-0913-4cc3-8896-92cc1b9c4ae0",
+	"name": "Python",
+	"timestamp": "2022-08-14T14:20:40.050Z",
+	"collection_id": "19876906-a4e2326e-a16b-42d4-b3fe-4bd365b2154d",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "276fab3d-1777-4d6f-bbca-482f6ecf6337",
+			"name": "Get_main_page",
+			"url": "http://127.0.0.1:5000/",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "2cb83b81-1ba2-455a-b3b2-14f703d19752",
+			"name": "GET_candidates_id",
+			"url": "http://127.0.0.1:5000/candidate/6",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "d0cfd3e6-2f3f-48fe-b035-8953ef24a5aa",
+			"name": "Search_candidate_for_skill",
+			"url": "http://127.0.0.1:5000/skill/python",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "59075885-d6f9-441b-bb51-3e2848a7b2e6",
+			"name": "Search_candidate_for_name",
+			"url": "http://127.0.0.1:5000/search/Sheree",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 18,
+	"collection": {
+		"requests": [
+			{
+				"id": "276fab3d-1777-4d6f-bbca-482f6ecf6337",
+				"method": "GET"
+			},
+			{
+				"id": "2cb83b81-1ba2-455a-b3b2-14f703d19752",
+				"method": "GET"
+			},
+			{
+				"id": "d0cfd3e6-2f3f-48fe-b035-8953ef24a5aa",
+				"method": "GET"
+			},
+			{
+				"id": "59075885-d6f9-441b-bb51-3e2848a7b2e6",
+				"method": "GET"
+			}
+		]
+	}
+}
